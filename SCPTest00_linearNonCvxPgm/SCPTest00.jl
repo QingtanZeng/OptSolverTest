@@ -113,7 +113,7 @@ function ScpSubPrm!(zref::Vector{<:Real}, conpgm::ConPgm)::Int
                     zeros(1,2)  1  0        zeros(1,3);
                     zeros(3,4)              1.0*I(3)  ]
                 ])
-    h = [0.5;[0;0];zeros(3)]
+    h = [0.9;[0;0];zeros(3)]
     m = length(h) # Total dimension of cone constraints
 
 # positvie cone and exponential constraints
