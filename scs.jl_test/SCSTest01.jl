@@ -1,5 +1,6 @@
-using ECOS
-using SparseArrays
+using SCS, ECOS
+using LinearAlgebra, SparseArrays
+using JuMP
 
 """
 min x₁² + x₂² 
