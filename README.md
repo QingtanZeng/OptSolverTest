@@ -12,9 +12,9 @@ only the three types of solvers and responding projects are focused, for real-ti
    and a similar variant, Proportional-integral projected gradient method (PIPG)
 
 <b>HE DRS</b> is preferred for real-time platform, due to the advantages:
-1. Infeasibility Certification concurrent with convergence, by Homogeneous Embedding;
-2. Converge rapidly to local modest precision solution, by first-order splitting iteration;
-3. Low computational load of single iteration, by conical projection and fixed LDLT decomposition, \
+1. <b>Infeasibility Certification</b> concurrent with convergence, by Homogeneous Embedding;
+2. Converge rapidly to local <b>modest precision</b> solution, by first-order splitting iteration;
+3. <b>Low computational</b> load of single iteration, by conical projection and fixed LDLT decomposition, \
    compare to updated decomposition of each iteration in IPM's newton direction;
-4. Warm-start, beneficial for MPC.
+4. <b>Warm-start</b>, beneficial for MPC.
    
