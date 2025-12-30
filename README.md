@@ -4,7 +4,10 @@ The repo serves the following three development objectives:
 2. test open-source convex solvers' interface and performance in Julia and C/C++;
 3. customized solvers based on open-source projects, for embedded system (CPU + Parallel acceleration).
 
-Based on solvers' classification in three dimensions, <b>{First-Order, Second-Order} x {IPM, Exterior Point Method(Penalty)} x {Primal, Primal-dual}</b>, \
+Based on solvers' classification in three dimensions,
+
+<b>{First-Order, Second-Order} x {IPM, Exterior Point Method(Penalty)} x {Primal, Primal-dual}</b>,
+
 only the three types of solvers and corresponding projects are focused, for real-time trajectory generation's OCP on embedded system:
 1. <b>Homogeneous Self-dual Embedding(HSDE) IPM</b> for Linear SOCP :   ECOS
 2. <b>Homogeneous Embedding(HE) IPM</b> for Quadratic SOCP:             Clarabel 
